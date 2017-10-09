@@ -1,0 +1,16 @@
+body{
+	font-family: verdana;
+		}
+	
+button{
+	font-size: 20px;
+	position: absolute;
+	z-index: 9999;
+	top: 240px;
+	left: 90%;
+		}
+			
+div {
+	position: relative;
+	left: 70%;
+		}

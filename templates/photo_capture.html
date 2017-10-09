@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Photo Style</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='estilo.css')}}"/>
+	</head>
+	<body>
+		<script type='text/javascript' src="{{url_for('static', filename='photo_capture.js')}}"></script>
+		<img src="{{url_for('static', filename='accenture_img.jpg')}}" id="photo" alt="photo">
+		<button id="play">Repeat Photo</button>
+		<button id="pause">Take photo</button>
+		<button id="stop">Send photo</button>
+		<button id="cambio">Change photo</button>
+		<canvas id="canvas" style="Visibility:hidden"></canvas>
+		<video id="video"></video>
+	</body>
+</html>

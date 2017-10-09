@@ -1,0 +1,47 @@
+body{
+	font-family: verdana;
+	/*background-image:url('../static/accenture_img.jpg');*/
+	background-repeat:no-repeat; 
+	background-size:cover;
+}
+
+button.hablar{
+	background-color:transparent;
+	overflow: hidden;
+	font-size: 20px;
+	z-index: 9999;
+	border: none;
+}
+button:focus {
+	outline:0;
+}
+			
+div {
+	position: relative;
+	bottom: -20px;
+}
+
+img{
+	position: absolute;
+	border: inset 3px black;
+	z-index: 1000;
+	height: 262px;
+	width: 350px;
+	left: 60%;
+	top: 40%;
+}
+
+video{
+	position: fixed;
+	top: 60%; left: 20%;
+	z-index: 2;
+	width: 350px;
+	height: auto;
+}
+
+canvas{
+	background: transparent;
+	z-index: 1;
+	top: 60%;
+	left:30%;
+}

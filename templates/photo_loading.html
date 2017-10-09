@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Asistente Virtual</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='estilo2.css')}}" />		  
+	</head>
+	<body>
+		<script type='text/javascript' src="{{url_for('static', filename='botlibre.js')}}"></script>
+		<script type='text/javascript' src="{{url_for('static', filename='funcion_clickESb.js')}}"></script>
+		<button style="Visibility:hidden;"id="play">Play</button>
+		<video id="camera" style="left:20%"></video>
+	</body>
+</html>
